@@ -1,0 +1,5 @@
+{
+  "name": "Darknet OSINT Suite",
+  "description": "A comprehensive full-stack OSINT (Open Source Intelligence) platform with modules for image geolocation, social media recon, email breach analysis, and more.",
+  "requestFramePermissions": []
+}

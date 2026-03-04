@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - HIBP_API_KEY=${HIBP_API_KEY}
+      - HUNTER_IO_API_KEY=${HUNTER_IO_API_KEY}
+      - ABUSEIPDB_API_KEY=${ABUSEIPDB_API_KEY}
+      - IPINFO_TOKEN=${IPINFO_TOKEN}
+    restart: always
